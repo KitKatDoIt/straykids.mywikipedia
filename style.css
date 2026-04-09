@@ -1,7 +1,6 @@
 body {
     background: lightblue url(images/завантаження\ \(1\).jpg) repeat-x;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 main {
@@ -13,6 +12,10 @@ footer {
     color: white;
     text-align: center;
     font-size: small;
+}
+
+p {
+    line-height: 1.9em;
 }
 
 a:link {
@@ -32,24 +35,24 @@ a:visited {
     background-color: white;
 }
 
-ul {
-    background-color: gray;
+nav ul {
+    background-color: rgb(160, 160, 160);
     margin: 10px 10px 0px 10px;
     list-style-type: none;
     padding: 5px 0px 5px 0px;
 }
 
-ul li {
+nav ul li {
     display: inline;
     padding: 5px 10px 5px 10px;
 }
 
-ul li a:link, ul li a:visited {
+nav ul li a:link, nav ul li a:visited {
     color: black;
     border-bottom: none;
     font-weight: bold;
 }
 
-ul li.selected {
-    background-color: rgb(160, 160, 160);
+nav ul li.selected {
+    background-color: gray;
 }
