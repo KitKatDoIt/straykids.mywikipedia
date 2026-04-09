@@ -9,7 +9,7 @@ main {
 }
 
 footer {
-    background-color: rgb(24, 24, 97);
+    background-color: #101010;
     color: white;
     text-align: center;
     font-size: small;
@@ -23,10 +23,6 @@ a:visited {
     color: gray;
 }
 
-nav li{
-    color: lightblue;
-}
-
 #allcontent {
     width: 800px;
     padding-top: 5px;
@@ -34,4 +30,26 @@ nav li{
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+}
+
+ul {
+    background-color: gray;
+    margin: 10px 10px 0px 10px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+ul li a:link, ul li a:visited {
+    color: black;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+ul li.selected {
+    background-color: rgb(160, 160, 160);
 }
