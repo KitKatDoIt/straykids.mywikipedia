@@ -1,6 +1,11 @@
 body {
-    background-color: lightblue;
+    background: lightblue url(images/завантаження\ \(1\).jpg) repeat-x;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+main {
+    border: thin black;
 }
 
 footer {
